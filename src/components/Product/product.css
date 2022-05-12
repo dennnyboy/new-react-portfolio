@@ -1,0 +1,63 @@
+.p {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ece9e6;
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+}
+
+.p-body {
+  padding: 20px;
+}
+
+.p-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.p-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+}
+
+.p-button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4e9caf;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.p-texts {
+  display: flex;
+  align-content: center;
+}
+
+.p-layout {
+  align-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .pl {
+    height: fit-content;
+    width: 100%;
+  }
+  .pl-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    padding: 3rem;
+    place-items: center;
+    gap: 3rem 2rem;
+  }
+}
