@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Summary
+
+This portfolio can easily be used as a template for your own porfolio! Today most people just want a sleek and clean site to show off thier work and this does exactly that. If you end up using this template shoot me a tweet @Dennnyboyy to see how you improved it!
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -69,6 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-## Screenshot
+## Screenshot 
 ![App Screenshot](screenshot/Capture1.PNG)
