@@ -5,6 +5,12 @@ html {
   background: #fcfcfc;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 textarea {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
