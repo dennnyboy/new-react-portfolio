@@ -16,7 +16,7 @@ const About = () => {
         <button
           onClick={() =>
             window.open(
-              "https://docs.google.com/document/d/1j8MZ70quA3liKtEEYbVVCoZ9nufc5MiR_P2yVh37XZA/edit",
+              "https://docs.google.com/document/d/1j8MZ70quA3liKtEEYbVVCoZ9nufc5MiR_P2yVh37XZA/edit?usp=sharing",
               "_blank"
             )
           }
